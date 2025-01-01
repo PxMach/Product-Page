@@ -82,12 +82,13 @@ body {
 
 /* Section Product */
 .product {
-  height: 550px;
+  height: 650px;
   display: flex;
   gap: 40px;
 }
 .product-description-title {
   margin-top: 10px;
+  margin-bottom: 18px;
 }
 .product-container {
   height: 100%;
@@ -111,6 +112,30 @@ body {
 .product-nav-link a {
   border-bottom: 1px solid #000;
   color: #000;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 12px;
+  border: 1px solid #000;
+  width: 11%;
+  height: 40px;
+  padding: 10px;
+  position: absolute;
+  bottom: 22px;
+  left: 400px;
+
+}
+.show-more-link {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.show-more i {
+  margin-left: 20px;
 }
 
 /* product description */
@@ -172,3 +197,11 @@ p {
   padding: 10px;
   width: 100%;
 }
+#arrow-right {
+  font-size: 16px;
+}
+.button:hover {
+  background-color: red;
+  color: #fff;
+}
+
